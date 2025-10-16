@@ -1,0 +1,6 @@
+окт. 16, 2025 8:47:14 PM geometry3d.Cylinder <init>
+FINEST: Создан цилиндр: основание=Circle, высота=10.0
+окт. 16, 2025 8:47:14 PM geometry3d.Cylinder Volume
+FINEST: Объём цилиндра V=282.7433388230814
+окт. 16, 2025 8:47:14 PM geometry3d.Cylinder <init>
+SEVERE: Создание цилиндра с null-основанием

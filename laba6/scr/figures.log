@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-10-16T13:47:14.890154600Z</date>
+  <millis>1760622434890</millis>
+  <nanos>154600</nanos>
+  <sequence>1</sequence>
+  <logger>geometry2d.Circle</logger>
+  <level>SEVERE</level>
+  <class>geometry2d.Circle</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Создан круг r=3.0</message>
+</record>
+<record>
+  <date>2025-10-16T13:47:14.919335300Z</date>
+  <millis>1760622434919</millis>
+  <nanos>335300</nanos>
+  <sequence>3</sequence>
+  <logger>geometry2d.Circle</logger>
+  <level>SEVERE</level>
+  <class>geometry2d.Circle</class>
+  <method>Show</method>
+  <thread>1</thread>
+  <message>Вызван Show() у круга r=3.0</message>
+</record>
+<record>
+  <date>2025-10-16T13:47:14.921054900Z</date>
+  <millis>1760622434921</millis>
+  <nanos>54900</nanos>
+  <sequence>5</sequence>
+  <logger>geometry2d.Circle</logger>
+  <level>SEVERE</level>
+  <class>geometry2d.Circle</class>
+  <method>Area</method>
+  <thread>1</thread>
+  <message>Площадь круга r=3.0 S=28.274333882308138</message>
+</record>
+<record>
+  <date>2025-10-16T13:47:14.943055Z</date>
+  <millis>1760622434943</millis>
+  <nanos>55000</nanos>
+  <sequence>8</sequence>
+  <logger>geometry2d.Circle</logger>
+  <level>SEVERE</level>
+  <class>geometry2d.Circle</class>
+  <method>Area</method>
+  <thread>1</thread>
+  <message>Площадь круга r=3.0 S=28.274333882308138</message>
+</record>
+<record>
+  <date>2025-10-16T13:47:14.944055800Z</date>
+  <millis>1760622434944</millis>
+  <nanos>55800</nanos>
+  <sequence>10</sequence>
+  <logger>geometry2d.Circle</logger>
+  <level>SEVERE</level>
+  <class>geometry2d.Circle</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>Попытка создать круг с r=0.0</message>
+</record>
+</log>
