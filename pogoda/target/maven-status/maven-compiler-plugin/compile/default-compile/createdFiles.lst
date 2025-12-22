@@ -1,0 +1,13 @@
+com\pogoda\MainApp.class
+com\pogoda\WeatherController$2.class
+com\pogoda\CityStorage$SavedCity.class
+com\pogoda\WeatherApi$Current.class
+com\pogoda\WeatherController$1.class
+com\pogoda\WeatherApi$City.class
+com\pogoda\ex\CityNotFoundException.class
+com\pogoda\ex\ApiException.class
+com\pogoda\WeatherApi$DayAgg.class
+com\pogoda\CityStorage.class
+com\pogoda\WeatherApi.class
+com\pogoda\WeatherController.class
+com\pogoda\WeatherController$3.class

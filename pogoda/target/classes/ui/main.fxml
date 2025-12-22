@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="10" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+    fx:controller="com.pogoda.WeatherController" style="-fx-padding: 16;">
+
+    <HBox spacing="8">
+        <TextField fx:id="cityField" promptText="Введите город..." HBox.hgrow="ALWAYS"/>
+        <Button text="Найти" onAction="#onSearch"/>
+    </HBox>
+
+    <Label text="Подсказки:"/>
+    <ListView fx:id="suggestionsList" prefHeight="110"/>
+
+    <Separator/>
+
+    <HBox spacing="12">
+        <ImageView fx:id="iconView" fitWidth="70" fitHeight="70" preserveRatio="true"/>
+        <VBox spacing="4">
+            <Label fx:id="cityLabel" text="—" style="-fx-font-size: 18; -fx-font-weight: bold;"/>
+            <Label fx:id="nowLabel" text="—"/>
+            <Label fx:id="moreLabel" text="—"/>
+        </VBox>
+    </HBox>
+
+    <Separator/>
+
+    <Label text="Прогноз на 4 дня:" style="-fx-font-weight: bold;"/>
+    <ListView fx:id="forecastList" prefHeight="170"/>
+
+</VBox>
